@@ -1,0 +1,11 @@
+id = "rime-ls"
+name = "Rime language server"
+version = "0.0.1"
+schema_version = 1
+authors = ["ZilcH40 <wlh233@live.com>"]
+description = "Rime language server for zed"
+repository = "https://github.com/wlh320/zed-ext-rime-ls"
+
+[language_servers.rime-ls]
+name = "Rime Language Server"
+language = "Markdown"
