@@ -30,6 +30,7 @@ impl zed::Extension for RimeExtension {
         _language_server_id: &zed::LanguageServerId,
         _worktree: &zed::Worktree,
     ) -> zed::Result<Option<zed::serde_json::Value>> {
+        // default initialization options, users can override it in settings
         let initialization_options = r#"{
             "enabled": true,
             "shared_data_dir": "/usr/share/rime-data",
